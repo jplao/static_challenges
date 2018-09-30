@@ -1,58 +1,60 @@
-.header {
-  color: white;
-  font-size: 20px;
-  background-color: DarkRed;
+div {
+  font-family: Arial;
   padding-top: 15px;
   padding-right: 10px;
   padding-bottom: 20px;
   padding-left: 20px;
-  }
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px
+}
+
+h3 {
+  font-size: 15px
+}
+
+.header {
+  color: white;
+  font-size: 20px;
+  background-color: DarkRed;
+}
 
 .links {
   color: white;
   font-size: 15px;
   background-color: DimGray;
   text-align: right;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
 }
 
 .content {
   text-align: left;
   color: black;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 30px;
-  padding-left: 20px;
 }
 
 .footer {
   text-align: left;
   color: white;
   background-color: DimGray;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 30px;
-  padding-left: 20px;
 }
 
 .sidebar {
 
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 35px;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 25px
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 15px
+.alignright {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  padding: 10px;
 }
