@@ -1,5 +1,4 @@
 .header {
-  font-family: "Arial", Arial, sans-serif;
   color: white;
   font-size: 20px;
   background-color: DarkRed;
@@ -10,7 +9,6 @@
   }
 
 .links {
-  font-family: "Arial", Arial, sans-serif;
   color: white;
   font-size: 15px;
   background-color: DimGray;
@@ -22,7 +20,6 @@
 }
 
 .content {
-  font-family: "Arial", Arial, sans-serif;
   text-align: left;
   color: black;
   padding-top: 20px;
@@ -32,7 +29,6 @@
 }
 
 .footer {
-  font-family: "Arial", Arial, sans-serif;
   text-align: left;
   color: white;
   background-color: DimGray;
@@ -40,6 +36,10 @@
   padding-right: 10px;
   padding-bottom: 30px;
   padding-left: 20px;
+}
+
+.sidebar {
+
 }
 
 h1 {
