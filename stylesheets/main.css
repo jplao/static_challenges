@@ -1,9 +1,6 @@
 div {
   font-family: Arial;
-  padding-top: 15px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 h1,
@@ -31,10 +28,14 @@ h3 {
 }
 
 .links {
-  color: white;
   font-size: 15px;
   background-color: DimGray;
   text-align: right;
+}
+
+.links a {
+  margin: 5px;
+  color: white;
 }
 
 .content {
@@ -48,13 +49,18 @@ h3 {
   background-color: DimGray;
 }
 
-.sidebar {
-
-}
-
 .alignright {
   position: absolute;
   right: 15px;
   top: 15px;
   padding: 10px;
+}
+
+.sidebar img{
+  margin: 5px 0 30px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 75% 25%;
 }
